@@ -1,20 +1,25 @@
-# THOR Plugin Template
+# THOR Sample Collector Plugin
 
 ## Description
 
-This repository contains a template for creating THOR plugins.
+This repository contains a THOR plugin that uploads files that THOR scanned to a remote server.
 
-The template includes a basic structure for a plugin, as well as GitHub actions for validation.
-
-For more information about THOR plugins and how to write and use them, see [the plugin documentation](https://github.com/NextronSystems/thor-plugin/).
+The server is a simple HTTP server that can be found in the `server/` directory.
 
 ## Usage
 
-To create a new plugin based on this template, first select `thor-plugins/template` as the template repository when creating a new repository on GitHub.
+This plugin is not intended for actual use, but merely as an example of how to
+implement a THOR plugin that uploads files to a remote server.
 
-Then, make sure to adjust the following files:
+If you want to build your own plugin based on this, you may want to consider:
 
-- `go.mod`: Update the module name to match your plugin's name.
-- `README.md`: Update the description and usage instructions for your plugin.
-- `metadata.yml`: Update the metadata for your plugin, including the name, version, and description.
-- `plugin.go`: Update the plugin code to implement the desired functionality.
+- Which files should be uploaded? Any files, only files with a certain score,
+  only files with a certain file type, files where a custom signature matched, etc.
+
+  _This example uploads all PE files that THOR encounters._
+- What metadata should be sent along with the files?
+
+  _This example only sends the file path._
+- How should network issues (DNS resolution, connection issues, etc.) be handled? Logging, retries, ...
+
+  _This example simply logs any errors._

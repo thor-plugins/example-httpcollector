@@ -1,6 +1,6 @@
-name: Plugin Name
-author: Plugin Author
+name: Executable Collector
+author: Gregor Matura
 version: v1.0.0
 description: |
-  This is a description of the plugin.
+  Uploads PE files found to a sample server.
 requires_thor: v11.0.0

@@ -28,7 +28,7 @@ jobs:
       - name: Create Plugin ZIP
         run: |
           # Create a zip file of the plugin
-          zip -r plugin.zip . --include metadata.yml --include "*.go"
+          zip -r plugin.zip . --include metadata.yml --include "*.go" --exclude "server/*"
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
