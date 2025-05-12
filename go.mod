@@ -1,4 +1,4 @@
-module github.com/thor-plugin/template
+module github.com/thor-plugin/httpcollector
 
 go 1.24.2
 
