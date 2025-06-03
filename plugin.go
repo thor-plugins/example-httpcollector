@@ -18,7 +18,7 @@ func Init(config thor.Configuration, logger thor.Logger, actions thor.RegisterAc
 }
 
 func uploadSample(logger thor.Logger, object thor.MatchedObject) {
-	file, isFile := object.Object.(*thorlog.File)
+	file, isFile := object.Finding.Subject.(*thorlog.File)
 
 	// Skip if the object is not a file
 	if !isFile {
@@ -84,5 +84,5 @@ func uploadSample(logger thor.Logger, object thor.MatchedObject) {
 		return
 	}
 
-	logger.Info("Uploaded sample", "object", object.Object)
+	logger.Info("Uploaded sample", "object", file)
 }

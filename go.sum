@@ -1,7 +1,7 @@
 github.com/NextronSystems/jsonlog v0.0.0-20250205144531-15ac5e18da0c h1:fXEFR3hqLpfHfjGmrT62c5Y+VWSaoaqSYu67FxiDbBg=
 github.com/NextronSystems/jsonlog v0.0.0-20250205144531-15ac5e18da0c/go.mod h1:Hk47VW018TX8o/0sxK+EJt16iRE7gB91zGZGiaAjcww=
-github.com/NextronSystems/thor-plugin v0.0.0-20250320142636-1a0a2af9451a h1:OHsQHFN0CN2EvbVcR+QoqVifeP16mLhbiwUxXvPFJo4=
-github.com/NextronSystems/thor-plugin v0.0.0-20250320142636-1a0a2af9451a/go.mod h1:EcC2/6EhePGOnVKwcY8TF9OEfgROiobzyOd4np6lvfA=
+github.com/NextronSystems/thor-plugin v0.0.0-20250602110752-3e5af48381fc h1:ZeewjFBUPJDLhh7ONZlGmfGvZmCe4Jd4t/ym/7pxqts=
+github.com/NextronSystems/thor-plugin v0.0.0-20250602110752-3e5af48381fc/go.mod h1:VaEXvfH1kr4ik1nWuUdh00BMssw+eqtYaOLwzcl65Xc=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
