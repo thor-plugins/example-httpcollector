@@ -3,8 +3,8 @@ module github.com/thor-plugin/httpcollector
 go 1.24.2
 
 require (
-	github.com/NextronSystems/jsonlog v0.0.0-20250205144531-15ac5e18da0c
-	github.com/NextronSystems/thor-plugin v0.0.0-20250602110752-3e5af48381fc
+	github.com/NextronSystems/jsonlog v1.0.0-alpha.0.20260217085034-6cb530d8ac82
+	github.com/NextronSystems/thor-plugin v0.0.0-20260219124122-4903ff22b9c4
 )
 
 require (

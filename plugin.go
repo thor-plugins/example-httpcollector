@@ -17,8 +17,8 @@ func Init(config thor.Configuration, logger thor.Logger, actions thor.RegisterAc
 	logger.Info("HTTPCollector plugin loaded!")
 }
 
-func uploadSample(logger thor.Logger, object thor.MatchedObject) {
-	file, isFile := object.Finding.Subject.(*thorlog.File)
+func uploadSample(logger thor.Logger, object thor.AssessedObject) {
+	file, isFile := object.Assessment.Subject.(*thorlog.File)
 
 	// Skip if the object is not a file
 	if !isFile {
